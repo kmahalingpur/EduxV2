@@ -18,6 +18,10 @@ const routes: Routes = [
                 "loadChildren": ".\/pages\/default\/candidate-students\/candidate-students.module#CandidateStudentsModule"
             },
             {
+                "path": "ogrenci-formu",
+                "loadChildren": ".\/pages\/default\/student-form\/student-form.module#StudentFormModule"
+            },
+            {
                 'path': '',
                 'redirectTo': 'index',
                 'pathMatch': 'full',
